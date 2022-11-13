@@ -18,23 +18,45 @@
 		5A5330B7291F02DB0081E957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330B6291F02DB0081E957 /* AppDelegate.swift */; };
 		5A5330B9291F02DB0081E957 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330B8291F02DB0081E957 /* GameViewController.swift */; };
 		5A5330BC291F02DB0081E957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5330BA291F02DB0081E957 /* Main.storyboard */; };
-		5A5330BE291F02DB0081E957 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308B291F02D70081E957 /* Actions.sks */; };
-		5A5330BF291F02DB0081E957 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308B291F02D70081E957 /* Actions.sks */; };
-		5A5330C0291F02DB0081E957 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308B291F02D70081E957 /* Actions.sks */; };
-		5A5330C1291F02DB0081E957 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308C291F02D70081E957 /* GameScene.sks */; };
-		5A5330C2291F02DB0081E957 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308C291F02D70081E957 /* GameScene.sks */; };
-		5A5330C3291F02DB0081E957 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308C291F02D70081E957 /* GameScene.sks */; };
 		5A5330C4291F02DB0081E957 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53308D291F02D70081E957 /* GameScene.swift */; };
 		5A5330C5291F02DB0081E957 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53308D291F02D70081E957 /* GameScene.swift */; };
 		5A5330C6291F02DB0081E957 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53308D291F02D70081E957 /* GameScene.swift */; };
 		5A5330C7291F02DB0081E957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308E291F02DA0081E957 /* Assets.xcassets */; };
 		5A5330C8291F02DB0081E957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308E291F02DA0081E957 /* Assets.xcassets */; };
 		5A5330C9291F02DB0081E957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A53308E291F02DA0081E957 /* Assets.xcassets */; };
+		5A5330DE291F072F0081E957 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330DD291F072F0081E957 /* Fish.swift */; };
+		5A5330DF291F072F0081E957 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330DD291F072F0081E957 /* Fish.swift */; };
+		5A5330E0291F072F0081E957 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330DD291F072F0081E957 /* Fish.swift */; };
+		5A5330E2291F087F0081E957 /* SatiatedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E1291F087F0081E957 /* SatiatedState.swift */; };
+		5A5330E3291F087F0081E957 /* SatiatedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E1291F087F0081E957 /* SatiatedState.swift */; };
+		5A5330E4291F087F0081E957 /* SatiatedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E1291F087F0081E957 /* SatiatedState.swift */; };
+		5A5330E6291F09D30081E957 /* FishNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E5291F09D30081E957 /* FishNode.swift */; };
+		5A5330E7291F09D30081E957 /* FishNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E5291F09D30081E957 /* FishNode.swift */; };
+		5A5330E8291F09D30081E957 /* FishNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E5291F09D30081E957 /* FishNode.swift */; };
+		5A5330EA291F0AF90081E957 /* HungryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E9291F0AF90081E957 /* HungryState.swift */; };
+		5A5330EB291F0AF90081E957 /* HungryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E9291F0AF90081E957 /* HungryState.swift */; };
+		5A5330EC291F0AF90081E957 /* HungryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330E9291F0AF90081E957 /* HungryState.swift */; };
+		5A5330EE291F0BAC0081E957 /* DeadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330ED291F0BAC0081E957 /* DeadState.swift */; };
+		5A5330EF291F0BAC0081E957 /* DeadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330ED291F0BAC0081E957 /* DeadState.swift */; };
+		5A5330F0291F0BAC0081E957 /* DeadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330ED291F0BAC0081E957 /* DeadState.swift */; };
+		5A5330F2291F0EF30081E957 /* ContactNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330F1291F0EF30081E957 /* ContactNode.swift */; };
+		5A5330F3291F0EF30081E957 /* ContactNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330F1291F0EF30081E957 /* ContactNode.swift */; };
+		5A5330F4291F0EF30081E957 /* ContactNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330F1291F0EF30081E957 /* ContactNode.swift */; };
+		5A5330F7292017810081E957 /* DropNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330F6292017810081E957 /* DropNode.swift */; };
+		5A5330F8292017810081E957 /* DropNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330F6292017810081E957 /* DropNode.swift */; };
+		5A5330F9292017810081E957 /* DropNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330F6292017810081E957 /* DropNode.swift */; };
+		5A5330FB292017D00081E957 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330FA292017D00081E957 /* Drop.swift */; };
+		5A5330FC292017D00081E957 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330FA292017D00081E957 /* Drop.swift */; };
+		5A5330FD292017D00081E957 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5330FA292017D00081E957 /* Drop.swift */; };
+		5A533108292176D40081E957 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A533107292176D40081E957 /* Tracking.swift */; };
+		5A533109292176D40081E957 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A533107292176D40081E957 /* Tracking.swift */; };
+		5A53310A292176D40081E957 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A533107292176D40081E957 /* Tracking.swift */; };
+		5A53310C29217A0C0081E957 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53310B29217A0C0081E957 /* Food.swift */; };
+		5A53310D29217A0C0081E957 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53310B29217A0C0081E957 /* Food.swift */; };
+		5A53310E29217A0C0081E957 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53310B29217A0C0081E957 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A53308B291F02D70081E957 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5A53308C291F02D70081E957 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5A53308D291F02D70081E957 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5A53308E291F02DA0081E957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A533093291F02DA0081E957 /* fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +74,16 @@
 		5A5330B8291F02DB0081E957 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5A5330BB291F02DB0081E957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A5330BD291F02DB0081E957 /* fish_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fish_macOS.entitlements; sourceTree = "<group>"; };
+		5A5330DD291F072F0081E957 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		5A5330E1291F087F0081E957 /* SatiatedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatiatedState.swift; sourceTree = "<group>"; };
+		5A5330E5291F09D30081E957 /* FishNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishNode.swift; sourceTree = "<group>"; };
+		5A5330E9291F0AF90081E957 /* HungryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryState.swift; sourceTree = "<group>"; };
+		5A5330ED291F0BAC0081E957 /* DeadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadState.swift; sourceTree = "<group>"; };
+		5A5330F1291F0EF30081E957 /* ContactNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNode.swift; sourceTree = "<group>"; };
+		5A5330F6292017810081E957 /* DropNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropNode.swift; sourceTree = "<group>"; };
+		5A5330FA292017D00081E957 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		5A533107292176D40081E957 /* Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
+		5A53310B29217A0C0081E957 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +125,11 @@
 		5A53308A291F02D60081E957 /* fish Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5A53308B291F02D70081E957 /* Actions.sks */,
-				5A53308C291F02D70081E957 /* GameScene.sks */,
+				5A5331022921754A0081E957 /* Components */,
 				5A53308D291F02D70081E957 /* GameScene.swift */,
+				5A5330F5291F13380081E957 /* States */,
+				5A5330FF2920181C0081E957 /* Nodes */,
+				5A5331002920182A0081E957 /* Entities */,
 				5A53308E291F02DA0081E957 /* Assets.xcassets */,
 			);
 			path = "fish Shared";
@@ -142,6 +176,44 @@
 				5A5330BD291F02DB0081E957 /* fish_macOS.entitlements */,
 			);
 			path = "fish macOS";
+			sourceTree = "<group>";
+		};
+		5A5330F5291F13380081E957 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				5A5330E1291F087F0081E957 /* SatiatedState.swift */,
+				5A5330E9291F0AF90081E957 /* HungryState.swift */,
+				5A5330ED291F0BAC0081E957 /* DeadState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		5A5330FF2920181C0081E957 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				5A5330E5291F09D30081E957 /* FishNode.swift */,
+				5A5330F6292017810081E957 /* DropNode.swift */,
+				5A5330F1291F0EF30081E957 /* ContactNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		5A5331002920182A0081E957 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5A5330FA292017D00081E957 /* Drop.swift */,
+				5A5330DD291F072F0081E957 /* Fish.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5A5331022921754A0081E957 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5A533107292176D40081E957 /* Tracking.swift */,
+				5A53310B29217A0C0081E957 /* Food.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,9 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A5330C1291F02DB0081E957 /* GameScene.sks in Resources */,
 				5A53309C291F02DA0081E957 /* Main.storyboard in Resources */,
-				5A5330BE291F02DB0081E957 /* Actions.sks in Resources */,
 				5A53309F291F02DA0081E957 /* LaunchScreen.storyboard in Resources */,
 				5A5330C7291F02DB0081E957 /* Assets.xcassets in Resources */,
 			);
@@ -256,9 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A5330C2291F02DB0081E957 /* GameScene.sks in Resources */,
 				5A5330AC291F02DA0081E957 /* Main.storyboard in Resources */,
-				5A5330BF291F02DB0081E957 /* Actions.sks in Resources */,
 				5A5330AF291F02DA0081E957 /* LaunchScreen.storyboard in Resources */,
 				5A5330C8291F02DB0081E957 /* Assets.xcassets in Resources */,
 			);
@@ -269,9 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5330BC291F02DB0081E957 /* Main.storyboard in Resources */,
-				5A5330C3291F02DB0081E957 /* GameScene.sks in Resources */,
 				5A5330C9291F02DB0081E957 /* Assets.xcassets in Resources */,
-				5A5330C0291F02DB0081E957 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A533108292176D40081E957 /* Tracking.swift in Sources */,
+				5A5330E2291F087F0081E957 /* SatiatedState.swift in Sources */,
+				5A5330EE291F0BAC0081E957 /* DeadState.swift in Sources */,
+				5A5330E6291F09D30081E957 /* FishNode.swift in Sources */,
+				5A53310C29217A0C0081E957 /* Food.swift in Sources */,
+				5A5330FB292017D00081E957 /* Drop.swift in Sources */,
 				5A5330C4291F02DB0081E957 /* GameScene.swift in Sources */,
 				5A533099291F02DA0081E957 /* GameViewController.swift in Sources */,
+				5A5330F7292017810081E957 /* DropNode.swift in Sources */,
+				5A5330F2291F0EF30081E957 /* ContactNode.swift in Sources */,
 				5A533097291F02DA0081E957 /* AppDelegate.swift in Sources */,
+				5A5330EA291F0AF90081E957 /* HungryState.swift in Sources */,
+				5A5330DE291F072F0081E957 /* Fish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A533109292176D40081E957 /* Tracking.swift in Sources */,
+				5A5330E3291F087F0081E957 /* SatiatedState.swift in Sources */,
+				5A5330EF291F0BAC0081E957 /* DeadState.swift in Sources */,
+				5A5330E7291F09D30081E957 /* FishNode.swift in Sources */,
+				5A53310D29217A0C0081E957 /* Food.swift in Sources */,
+				5A5330FC292017D00081E957 /* Drop.swift in Sources */,
 				5A5330C5291F02DB0081E957 /* GameScene.swift in Sources */,
 				5A5330A9291F02DA0081E957 /* GameViewController.swift in Sources */,
+				5A5330F8292017810081E957 /* DropNode.swift in Sources */,
+				5A5330F3291F0EF30081E957 /* ContactNode.swift in Sources */,
 				5A5330A7291F02DA0081E957 /* AppDelegate.swift in Sources */,
+				5A5330EB291F0AF90081E957 /* HungryState.swift in Sources */,
+				5A5330DF291F072F0081E957 /* Fish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +388,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A53310A292176D40081E957 /* Tracking.swift in Sources */,
+				5A5330E4291F087F0081E957 /* SatiatedState.swift in Sources */,
+				5A5330F0291F0BAC0081E957 /* DeadState.swift in Sources */,
+				5A5330E8291F09D30081E957 /* FishNode.swift in Sources */,
+				5A53310E29217A0C0081E957 /* Food.swift in Sources */,
+				5A5330FD292017D00081E957 /* Drop.swift in Sources */,
 				5A5330C6291F02DB0081E957 /* GameScene.swift in Sources */,
 				5A5330B9291F02DB0081E957 /* GameViewController.swift in Sources */,
+				5A5330F9292017810081E957 /* DropNode.swift in Sources */,
+				5A5330F4291F0EF30081E957 /* ContactNode.swift in Sources */,
 				5A5330B7291F02DB0081E957 /* AppDelegate.swift in Sources */,
+				5A5330EC291F0AF90081E957 /* HungryState.swift in Sources */,
+				5A5330E0291F072F0081E957 /* Fish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
